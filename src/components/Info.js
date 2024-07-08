@@ -8,9 +8,9 @@ export default function Info() {
     <div>
       <img src={avatar} alt="avatar" className="avatar-image" />
       <div className="infos">
-        <h2 className="name">Mouwafic Badarou</h2>
+        <h2 className="name">DevOnRoad</h2>
         <p className="role">Frontend Developer</p>
-        <p className="website">mouwaficbdr.website</p>
+        <p className="website">devonroad.website</p>
       </div>
       <div className="buttons-div">
         <button type="button" className="email-button buttons">

@@ -7,8 +7,11 @@ import twitterIcon from '../images/Twitter Icon.png'
 
 export default function Footer() {
   return (
-    <div>
-      
+    <div className="footer">
+      <img src={facebookIcon} alt="Facebook" className="footer-icons" />
+      <img src={githubIcon} alt="GitHub" className="footer-icons" />
+      <img src={instagramIcon} alt="Instagram" className="footer-icons" />
+      <img src={twitterIcon} alt="Twitter" className="footer-icons" />
     </div>
-  )
+  );
 }
