@@ -1,0 +1,95 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #23252C;
+  color: white;
+;
+}
+
+.container{
+  width:300px;
+  border-radius: 10px;
+  background-color: #1A1B21;
+
+}
+
+.avatar-image{
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.infos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.name{
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30.26px;
+}
+
+.role{
+  margin-top: 6px;
+  font-size: 12.8px;
+  font-weight: 400;
+  line-height: 15.49px;
+  color: #F3BF99;
+}
+
+.website{
+  margin-top: 8px;
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 15.36px;
+
+}
+
+.buttons-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.buttons{
+  width: 115px;
+  height: 34px;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.buttons-icons{
+  width: 12px;
+  margin-right: 5px;
+}
+
+.email-button{
+  margin-right: 17px;
+}
+
+.linkedin-button{
+  background-color: #5093E2;
+  color: white;
+}
+
+.buttons > p{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+}
